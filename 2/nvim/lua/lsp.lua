@@ -35,6 +35,6 @@ vim.api.nvim_create_autocmd('LspAttach', {
         -- Diagnostic Keybindings
         set('n', '[d', vim.diagnostic.goto_prev, opts)
         set('n', ']d', vim.diagnostic.goto_next, opts)
-        set('n', '<leader>e', vim.diagnostic.open_float, opts)
+        set('n', '<leader>h', vim.diagnostic.open_float, opts)
     end,
 })
