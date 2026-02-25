@@ -6,7 +6,7 @@ vim.g.maplocalleader = ' '
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Go to normal mode on ESC in terminal
-vim.keymap.set('t', '<Esc>', [[<C-\/><C-n>]], {silent = true, noremap = true})
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', {silent = true, noremap = true})
 
 -- Remap common <C-w> commands to <leader>w
 vim.keymap.set('n', '<leader>ws', '<C-w>s', { noremap = true, silent = true }) -- Split horizontally
