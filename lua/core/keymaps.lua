@@ -20,8 +20,8 @@ vim.keymap.set('n', '<leader>wk', '<C-w>k', { noremap = true, silent = true }) -
 vim.keymap.set('n', '<leader>wl', '<C-w>l', { noremap = true, silent = true }) -- Move to right window
 
 -- Increase/Decrease window height by 2
-vim.keymap.set("n", "<C-Up>", ":resize -2<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<C-Down>", ":resize +2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-Up>", ":resize +2<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-Down>", ":resize -2<CR>", { noremap = true, silent = true })
 
 -- Increase/Decrease window width by 2
 vim.keymap.set("n", "<C-Left>", ":vertical resize -2<CR>", { noremap = true, silent = true })
