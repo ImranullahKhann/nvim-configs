@@ -2,6 +2,8 @@ vim.lsp.enable("codebook")
 vim.lsp.enable("gopls")
 vim.lsp.enable("ts_ls")
 vim.lsp.enable("yamlls")
+vim.lsp.enable("html")
+vim.lsp.enable("cssls")
 
 -- LSP Configuration: This autocommand triggers whenever a Language Server attaches to a buffer.
 -- It maps essential IDE features (Definition, Hover, Rename, etc.) as buffer-local shortcuts,
