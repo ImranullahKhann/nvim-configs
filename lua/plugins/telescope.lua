@@ -12,5 +12,6 @@ return {
                 cwd = vim.fn.stdpath("config")
             }
         end)
+        vim.keymap.set('n', '<space>fg', require('telescope.builtin').live_grep, {})
     end,
 }
